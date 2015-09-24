@@ -20,3 +20,8 @@ Gives a minimal example for working with the [Slack Outgoing Webhooks Interface]
     and then clicking the `Add Outgoing WebHooks Integration` button.
 6. In the `URL(s)` textarea, put `http://your.server.com/path/to/slackback/dump.php`
 7. Click the `Save Settings` button
+
+## Features
+
+1. Saves messages from saved channels
+2. Can view messages in HTML format (at `history.php`) or as JSON (`history.php?json`) or even JSONP (`history.php?jsonp&callback=CALLBACK_NAME`).
