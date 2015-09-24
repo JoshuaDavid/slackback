@@ -14,7 +14,8 @@ foreach($results as $result) {
         'team' => $result['team_domain'],
         'channel' => $result['channel_name'],
         'user' => $result['user_name'],
-        'message' => $result['text']
+        'message' => $result['text'],
+        'timestamp' => (int) $result['timestamp'],
     );
 }
 
@@ -34,7 +35,7 @@ if(isset($_GET['json'])) {
     </head>
     <body class="container">
         <h1 class="text-center">LessWrong Slack Chat History</h1>
-        <table class="table table-hover table-striped">
+        <table class="table table-hover table-striped table-bordered">
             <thead>
                 <tr>
                     <th>Team</th>
