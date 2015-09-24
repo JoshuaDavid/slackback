@@ -49,7 +49,7 @@ if(isset($_GET['json'])) {
                     <td><?php echo htmlentities($message['team']); ?></td>
                     <td><?php echo htmlentities($message['channel']); ?></td>
                     <td><?php echo htmlentities($message['user']); ?></td>
-                    <td><?php echo htmlentities($message['message']); ?></td>
+                    <td><pre><?php echo htmlentities($message['message']); ?></pre></td>
                 </tr>
 <?php endforeach; ?>
             </tbody>
