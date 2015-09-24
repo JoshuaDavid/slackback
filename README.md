@@ -1,7 +1,7 @@
 # slackback
 Save slack messages
 
-Gives a minimal interface for working with the [Slack Outgoing Webhooks Interface](https://api.slack.com/outgoing-webhooks).
+Gives a minimal example for working with the [Slack Outgoing Webhooks Interface](https://api.slack.com/outgoing-webhooks).
 
 ## Installation and Setup
 
