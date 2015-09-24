@@ -30,9 +30,11 @@ if(isset($_GET['json'])) {
     <head>
         <meta charset="utf-8">
         <title>LW Slack History</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     </head>
-    <body>
-        <table>
+    <body class="container">
+        <h1 class="text-center">LessWrong Slack Chat History</h1>
+        <table class="table table-hover table-striped">
             <thead>
                 <tr>
                     <th>Team</th>
